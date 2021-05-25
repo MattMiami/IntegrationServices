@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{A9D9D0A6-6568-408A-877D-D7CA8EE3F893}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{DCB51D47-E89D-4760-8F7D-F495B9BFB6C5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -61,6 +61,21 @@
         </DTS:Executable>
       </DTS:Executables>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Tarea Flujo de datos"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{A5B0574A-3C4E-4E52-8A12-7E4CF9949B0B}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tarea Flujo de datos"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1" />
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -77,7 +92,7 @@
         <NodeLayout
           Size="176,42"
           Id="Package\For Loop Container\Tarea Flujo de datos"
-          TopLeft="24,5.5" />
+          TopLeft="16,5.5" />
         <NodeLayout
           Size="185,42"
           Id="Package\For Loop Container\Tarea Flujo de datos 1"
@@ -89,6 +104,10 @@
           Size="205,208"
           Id="Package\For Loop Container"
           TopLeft="321.5,49.5" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Tarea Flujo de datos"
+          TopLeft="324,344" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
